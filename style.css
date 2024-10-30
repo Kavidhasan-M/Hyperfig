@@ -1,0 +1,67 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    background-image: url('./bg-hf.png');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    padding-top: 12%;
+}
+
+.logo img{
+    width: 150px;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+    
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    
+    100% {
+        opacity: 1;
+    }
+}
+    
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    
+    100% {
+        opacity: 1;
+    }
+}
+
+p{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+    main {
+        background-position: center;
+        background-position-x: ;
+    }
+}
